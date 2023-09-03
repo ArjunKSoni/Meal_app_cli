@@ -6,7 +6,7 @@ const favoriteSLice = createSlice({
     },
     reducers: {
         addfav: (state, action) => { state.ids.push(action.payload.id) },
-        remonfav: (state, action) => { state.ids.splice(state.ids.indexOf(action.payload.id), 1) }
+        remonfav: (state, action) => { state.ids.splice(state.ids.indexOf(action.payload.id), 1) },
     }
 })
 
